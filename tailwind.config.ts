@@ -12,7 +12,8 @@ const config: Config = {
         '2xl': '1440px',
       },
       colors: {
-        primary: '#CE1717',
+        primary: '#57C7FF',
+        secondary: '#CE1717',
       },
     },
   },
