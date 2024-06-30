@@ -4,6 +4,7 @@ import Header from './header';
 import Socials from './socials';
 import HowToBuy from './how-to-buy';
 import Tokenomics from './tokenomics';
+import Footer from './footer';
 
 import dragonFullImg from './dragon-full.svg';
 import cloudImg from './cloud.svg';
@@ -43,6 +44,8 @@ export default function Home() {
       <HowToBuy />
 
       <Tokenomics />
+
+      <Footer />
     </main>
   );
 }

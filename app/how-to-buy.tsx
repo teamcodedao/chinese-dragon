@@ -1,6 +1,6 @@
 export default function HowToBuy() {
   return (
-    <div className='px-5 mt-10'>
+    <div className='px-5 mt-20 sm:mt-10'>
       <div className='relative'>
         <img
           src='/gift-1.gif'
