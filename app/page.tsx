@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Header from './header';
 import Socials from './socials';
 import HowToBuy from './how-to-buy';
+import Tokenomics from './tokenomics';
 
 import dragonFullImg from './dragon-full.svg';
 import cloudImg from './cloud.svg';
@@ -40,6 +41,8 @@ export default function Home() {
       </div>
 
       <HowToBuy />
+
+      <Tokenomics />
     </main>
   );
 }
