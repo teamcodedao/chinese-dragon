@@ -2,13 +2,14 @@ import Image from 'next/image';
 
 import Header from './header';
 import Socials from './socials';
+import HowToBuy from './how-to-buy';
 
 import dragonFullImg from './dragon-full.svg';
 import cloudImg from './cloud.svg';
 
 export default function Home() {
   return (
-    <main className='min-h-screen max-w-screen-2xl mx-auto'>
+    <main className='min-h-screen max-w-screen-2xl mx-auto overflow-hidden'>
       <Header />
 
       <div className='relative'>
@@ -37,6 +38,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <HowToBuy />
     </main>
   );
 }
